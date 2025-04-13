@@ -1,0 +1,10 @@
+.primary {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--stroke-color);
+    padding: 20px 32px;
+}
+.primary div {
+    gap: 8px ;
+    display: flex;
+}

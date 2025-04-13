@@ -1,0 +1,7 @@
+.secondary ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 32px;
+    border-bottom: 2px solid var(--stroke-color);
+    list-style: none;
+}
