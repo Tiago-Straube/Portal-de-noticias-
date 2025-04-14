@@ -1,0 +1,84 @@
+.conteudo2 {
+    width: 1220px;
+    margin: auto;
+    height: 300px;
+    font: var(--span); 
+    padding-bottom: 80px;
+    border-bottom: 2px solid var(--stroke-color);
+
+  }
+  
+  .visto-recente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    list-style: none;
+  }
+  
+  .visto-recente li {
+    display: inline-block;
+  }
+  
+  .visto-recente img {
+    top: 0;
+    left: 0;
+    transition: opacity 0 ease;
+  }
+  
+
+  img.defaut {
+    opacity: 1;
+  }
+  
+
+  img.hover {
+    opacity: 0;
+  }
+  
+
+  .visto-recente li:hover img.defaut {
+    opacity: 0;
+  }
+  
+  .visto-recente li:hover img.hover {
+    opacity: 1;
+  }
+  
+  .conteudo2menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  
+  .conteudo2menu div {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .conteudo2menu div h2 {
+    background-color: var(--brand-color-dark);
+    border-radius: 4px;
+    font: var(--span);
+    width: fit-content;
+    padding: 3px;
+  }
+  
+
+  .veiculos {
+    background-image: url(/assets/Image%2006.png);
+  }
+  
+  .hologramas2 {
+    background-image: url(/assets/Image%2007.png);
+  }
+  
+  .realidade2 {
+    background-image: url(/assets/Image%2008.png);
+  }
+  
+  .internet2 {
+    background-image: url(/assets/Image%2009.png);
+  }
+  

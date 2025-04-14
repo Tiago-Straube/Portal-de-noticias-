@@ -3,13 +3,13 @@
     grid-template-areas:
     "A A B C"
     "A A D E";
-    height: 420px;
+    height: 416px;
     width: 1220px;
     margin : 30px auto;
     gap: 16px;
-}
-a {
-    font: var(--span);
+    border-bottom: 2px solid var(--stroke-color);
+    font: var(--span); 
+    padding-bottom: 80px;
 }
 .conteudo1 div {
     display: flex;
@@ -19,10 +19,15 @@ a {
     padding: 4px;
 }
 .conteudo1 div p {
+    margin-left: 10px;
+    margin-bottom: 5px;
     background-color: var(--brand-color-dark);
     border-radius: 4px;
     padding: 3px;
     font: var(--span);
+}
+.conteudo1 div a {
+    margin-left: 10px;
 }
 .conteudo1 div a:hover {
     text-decoration: underline;
