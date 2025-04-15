@@ -1,39 +1,45 @@
 .conteudo2 {
     width: 1220px;
     margin: auto;
-    height: 300px;
+    height: 360px;
     font: var(--span); 
     padding-bottom: 80px;
-    border-bottom: 2px solid var(--stroke-color);
-
+   
+    border-top: 2px solid var(--stroke-color);
   }
-  
   .visto-recente {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
     list-style: none;
+    height: 40px;
   }
   
   .visto-recente li {
-    display: inline-block;
+    list-style: none;
+    align-items: center;
   }
   
   .visto-recente img {
-    top: 0;
-    left: 0;
     transition: opacity 0 ease;
   }
   
 
   img.defaut {
     opacity: 1;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    align-self: center;
   }
   
 
   img.hover {
     opacity: 0;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    align-self: center;
   }
   
 
@@ -52,33 +58,52 @@
   }
   
   .conteudo2menu div {
-    height: 160px;
-    background-size: cover;
-    background-position: center;
+    height: 234px;
   }
   
-  .conteudo2menu div h2 {
+  .conteudo2 div h2 {
     background-color: var(--brand-color-dark);
     border-radius: 4px;
     font: var(--span);
     width: fit-content;
-    padding: 3px;
+    padding: 3px;    
   }
-  
-
   .veiculos {
+    height: 160px;
+    background-position: center;
+    background-size: cover;
     background-image: url(/assets/Image%2006.png);
+    border-radius: 4px;
   }
-  
   .hologramas2 {
+    height: 160px;
+    background-position: center;
+    background-size: cover;
     background-image: url(/assets/Image%2007.png);
+    border-radius: 4px;
   }
   
   .realidade2 {
+    height: 160px;
+    background-position: center;
+    background-size: cover;
     background-image: url(/assets/Image%2008.png);
+    border-radius: 4px;
   }
   
   .internet2 {
+    height: 160px;
+    background-position: center;
+    background-size: cover;
     background-image: url(/assets/Image%2009.png);
+    border-radius: 4px;
   }
-  
+
+  .veiculos,
+.hologramas2,
+.realidade2,
+.internet2 {
+  display: flex;
+  align-items: start;
+  padding: 8px;
+}

@@ -7,7 +7,6 @@
     width: 1220px;
     margin : 30px auto;
     gap: 16px;
-    border-bottom: 2px solid var(--stroke-color);
     font: var(--span); 
     padding-bottom: 80px;
 }
@@ -39,6 +38,7 @@
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0)),
     url(/assets/Image\ 01.png);
     background-size:cover;
+    border-radius: 4px;
 }
 .hologramas {
     grid-area: B;
@@ -46,6 +46,7 @@
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0)),
     url(/assets/Image\ 02.png);
     background-size:cover;
+    border-radius: 4px;
 }
 .internet{
     grid-area: C;
@@ -53,6 +54,7 @@
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0)),
     url(/assets/Image\ 03.png);
     background-size:cover;
+    border-radius: 4px;
 }
 .vestiveis {
     grid-area: D;
@@ -60,6 +62,7 @@
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0)),
     url(/assets/Image\ 04.png);
     background-size:cover;
+    border-radius: 4px;
 }
 .realidade {
     grid-area: E;
@@ -67,5 +70,6 @@
     background-image: 
     linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0)),
     url(/assets/Image\ 05.png);
+    border-radius: 4px;
     
 }
