@@ -1,0 +1,78 @@
+.conteudo3 {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 696px 488px;
+    grid-template-rows: 280px 544px;
+    gap: 32px;
+    max-width:1220px; ;
+    border-top: 2px solid var(--stroke-color);
+    
+}
+.conteudo3title{
+    grid-column: 1/2;
+
+}
+.conteudo3title ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.conteudo3main{
+    width: 696px;
+    grid-column: 1/2;
+    gap: 32px;
+}
+
+.conteudo3section{
+    width: 696px;
+    height: 176px;
+    display: grid;
+    grid-template-columns: 504px 176px;
+    gap: 16px;
+    overflow: hidden;
+    
+    padding: 3px;
+    margin-bottom: 16px;
+    font: var(--span)
+}
+.conteudo3section p{
+    height:max-content;
+    width: 504px;
+    white-space: collapse;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.conteudo3section h2{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: max-content;
+}
+.conteudo3section a {
+    background-color: var(--brand-color-dark);
+    border-radius: 4px;
+    padding: 3px;
+    font: var(--span);
+    max-width: fit-content;
+}
+.conteudo3section img {
+    
+    grid-column: 2/3;
+    grid-row: 1/6;
+    width: 176px;
+    height: 176px;
+
+
+}
+.conteudo3pop-up {
+grid-column: 2/3;
+
+background-image: url(/assets/ads/Ads.png);
+background-size:cover;
+height: 280px;}
+
+.conteudo4 {
+    grid-column: 2/3;
+}

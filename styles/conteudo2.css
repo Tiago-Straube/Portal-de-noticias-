@@ -13,11 +13,13 @@
     align-items: center;
     list-style: none;
     height: 40px;
+    padding: 8px;
   }
   
   .visto-recente li {
     list-style: none;
     align-items: center;
+    padding: 8px;
   }
   
   .visto-recente img {
@@ -76,6 +78,7 @@
     border-radius: 4px;
   }
   .hologramas2 {
+
     height: 160px;
     background-position: center;
     background-size: cover;
@@ -98,12 +101,3 @@
     background-image: url(/assets/Image%2009.png);
     border-radius: 4px;
   }
-
-  .veiculos,
-.hologramas2,
-.realidade2,
-.internet2 {
-  display: flex;
-  align-items: start;
-  padding: 8px;
-}
